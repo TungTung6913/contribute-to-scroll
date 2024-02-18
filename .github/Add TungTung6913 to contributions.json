@@ -1,0 +1,29 @@
+# Checklist ✅
+- [x] I've read [CONTRIBUTIONS.md](https://github.com/scroll-tech/contribute-to-scroll/blob/main/CONTRIBUTIONS.md) document
+- [x] I've filled the `contributions.json` file
+
+# Issues this PR Resolves 🚀
+- Link to the Issue: https://github.com/scroll-tech/contribute-to-scroll/issues/1151
+
+# Contributor social handles (Github / Twitter / Telegram) 🎙️
+1. Example Contributor
+   - Github: [TungTung6913](https://github.com/TungTung6913)
+   - Twitter: [kttaang](https://twitter.com/kttaang)
+
+# Contribution Description 📝
+Suggest on adding Paymaster to Scroll.
+- A paymaster is a smart contract that can pay for transactions for its users, executing any logic to decide whether it should forward a transaction. For example, developers can allow users to run transactions for free or pay in your application's ERC-20 token instead.
+
+# Why Scroll Needs Paymaster Similar To Zksyce?
+1). The cost reduction in terms of fees : with Paymaster, Scroll can encourage people to use different mode of payment with people do not need only to pay by using ETH, but they can use other tokens to pay, and Scroll can make a fee rebase program if they use other tokens. by doing this, Scroll can encourage people to use the chain more since the fee is much lower.
+2). A variety of gas token choice : Some people may want to pay by using other tokens. Sometimes, they might not have enough ETH and dont want to have ETH remaining as a gas due to price slippage and chages, so they might want to hold stable coins more; therefore, with Paymaster, they can hold just stable coins and use these as the main gas mode, so it encourage people to remain in the chain more and want to swap or doing the activity in Scroll more
+
+From my own experience, after Zksyce integrates Paymaster, I want to make a transaction and paticipate in more events from the chain more. I think Zksyce succesfully integrates this feature.
+
+The main goal of customized approach is to keep the following properties:
+• Security and good UX for the user
+• Flexibility for the paymasters and developers
+• DoS safety
+
+# Additional Resources 🔗
+Additional Info and How to implement : https://docs.zksync.io/build/tutorials/smart-contract-development/paymasters/custom-paymaster-tutorial.html,https://github.com/matter-labs/paymaster-examples
